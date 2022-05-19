@@ -1,0 +1,49 @@
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+}
+.counter-div{
+    width: 25rem;
+    border:1px solid grey;
+    padding: 1rem;
+    background-color:lightblue;
+    text-align: center;
+    border-radius: 5px;
+}
+.counter-div > *{
+    margin-bottom: 2rem;
+}
+.count{
+    font-size:4rem;
+}
+.buttons button{
+    padding:1rem;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+button.down{
+    background:linear-gradient(red,orangered);
+}
+button.down:hover{
+    background:linear-gradient(orangered,red);
+}
+button.reset{
+    background-color:aquamarine;
+    color: black;
+}
+button.up{
+    background:linear-gradient(green,rgb(89, 189, 89));
+}
+button.up:hover{
+    background:linear-gradient(rgb(89, 189, 89),green);
+}
